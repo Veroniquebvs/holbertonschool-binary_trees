@@ -5,7 +5,8 @@
  * @tree: pointer to the root node of the tree
  *
  * Description: A binary tree is full if every node has either 0 or 2 children.
- * The function returns 1 if the tree is full, 0 if the tree is NULL or not full.
+ * The function returns 1 if the tree is full, 0 if the tree is
+ * NULL or not full.
  *
  * Return: 1 if the tree is full, 0 otherwise
  */

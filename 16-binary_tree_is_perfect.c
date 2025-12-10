@@ -19,7 +19,16 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 	return (1 + (left_height > right_height ? left_height : right_height));
 }
-
+/**
+ * binary_tree_is_perfect - checks if a binary tree is perfect
+ * @tree: pointer to the root node of the tree
+ *
+ * A perfect binary tree is a type of binary tree in which every internal
+ * node has exactly two children and all leaf nodes are at the same level.
+ * Returns 0 if the tree is NULL.
+ *
+ * Return: 1 if the tree is perfect, 0 otherwise
+ */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (!tree)
